@@ -10,10 +10,10 @@
             Console.WriteLine("How wide do you want each row to be");
             int with = int.Parse(Console.ReadLine());
 
-            for(int i = 0; i <= with; i ++ )
+            for(int i = 0; i < row; i ++ )
             {
                 Console.Write("*");
-                for (int j = 1; j <= row; j++)
+                for (int j = 1; j < with; j++)
                 {
                     Console.WriteLine("*");
                 }
