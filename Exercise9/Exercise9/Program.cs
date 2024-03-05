@@ -21,17 +21,22 @@
                 Console.WriteLine("");
             }
             //Problem 2
+            //Start withe one *
+            //Then it goes to **
+            //Till it equal what you probte for\\
             Console.WriteLine("How many * do you want");
             int numberOfAsteriks = int.Parse(Console.ReadLine());
-            for( int i = 0; i < numberOfAsteriks; i++ )
+            for( int i = 1; i <= numberOfAsteriks; i++ )
             {
-                Console.Write("*");
-                for (int j = 0; j <= numberOfAsteriks; j++ )
+                Console.WriteLine();
+                for (int j = 1; j <= i; j++ )
                 {
-                    Console.WriteLine('*');
+                    Console.Write("*" );
+                    
                 }
+               
             }
-        }
+       }
         
 
         
