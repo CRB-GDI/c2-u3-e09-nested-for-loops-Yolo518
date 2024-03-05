@@ -3,7 +3,7 @@
     internal class Program
     {
         static void Main(string[] args)
-        { //Makeng rows and colums of *
+        { //Makeng rows and colums of * Problem 1
 
             Console.WriteLine("How many rows do you want");
             int row = int.Parse(Console.ReadLine());
@@ -12,12 +12,28 @@
 
             for(int i = 0; i < row; i ++ )
             {
-                Console.Write("*");
-                for (int j = 1; j < with; j++)
+                ;
+                
+                for (int j = 0; j < with; j++)
                 {
-                    Console.WriteLine("*");
+                    Console.Write("*");
+                }
+                Console.WriteLine("");
+            }
+            //Problem 2
+            Console.WriteLine("How many * do you want");
+            int numberOfAsteriks = int.Parse(Console.ReadLine());
+            for( int i = 0; i < numberOfAsteriks; i++ )
+            {
+                Console.Write("*");
+                for (int j = 0; j <= numberOfAsteriks; j++ )
+                {
+                    Console.WriteLine('*');
                 }
             }
         }
+        
+
+        
     }
 }
